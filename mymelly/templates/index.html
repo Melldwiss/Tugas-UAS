@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>web food</title>
+    <style>
+        * {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans' ,sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: Courier;
+    color: rgb(255, 0, 0);
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #00ff15;
+    z-index: 1;
+    border-bottom: 1px solid #00ff15;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #00ff15;
+}
+
+h2 {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #00ff15;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: blue;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #00ff15;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #00ff15;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: blue;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 800%;
+    font-size: 25px;
+    text-align: center;
+    color: #db34f1;
+}
+
+.Partners-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-Partners {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-Partners img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#Contact {
+    background: rgb(156, 156, 154);
+    padding: 50px 0px  50px 0px;
+}
+
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800%;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #0400ff;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyreght {
+    text-align: center;
+    width: 100%;
+    margin: 50px;
+    padding: 50px 0px 50px 0px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-Partners {
+        width: 50%;
+    }
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="">Fried Rice</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#Indosian culinary food">Indosian culinary food</a></li>
+                    <li><a href="#Recipe">Recipe</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="" class="tbl-biru">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <!-- untuk Courses -->
+        <section id="Indosian culinary food">
+            <div class="kolom">
+                <p class="deskripsi">Culinary Food</p>
+                <h2>Fried Rice</h2>
+                <p>Nasi goreng adalah sebuah makanan berupa nasi yang di goreng dan di aduk dalam minyak goreng, margarin ,mentega. nasi goreng merupakan salah satu budaya yang di bawa oleh masyarakat tionghoa saat berpindah ke indonesia . </p>
+
+            </div>
+            <img src="https://img.freepik.com/premium-photo/nasi-goreng-rendang-fried-rice-with-beef-stew-sunny-side-up-egg-isolated-white_511235-7771.jpg?size=626&ext=jpg&ga=GA1.2.447663577.1658339661" alt="">
+        </section>
+
+        <!-- untuk Recipe -->
+        <Section id="Recipe">
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi"></p>
+                    <h2>Recipe</h2>
+                    <p>Bahan bahan nasi goreng</p>
+                    <div>
+                        <p>1 potong paham ayam atas bawah rebus, suwir ayamnya, 2 butir telur, kocok lepas, 150g udang tanpa kulit, 5 buah bakso sapi potong potong, 500 g nasi putih 2 sendok makan kecap manis, satu sendok teh garam, satu batang daun bawang di iris tipis, satu setengah sendok makan bawang goreng untuk taburan, 3 sendok makan untuk tumis.</p>
+                    </div>
+                </div>    
+            </div>
+        </Section>
+
+        <!-- untuk How To Cook -->
+        <section id="Partners">
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi"></p>
+                    <h2>How To Cook</h2>
+                    <p>Panaskan minyak, tumis bumbu tumbuk kasar sampai harum. sisihkan di pinggir wajan, masukkan telur, aduk sampai berbutir. Tambahkan ayam,udang,bakso lalu aduk rata, tambahkan nasi putih lalu aduk aduk , masukkan kecap,garam dan gula pasir, aduk sampai matang. masukkan daun bawangaduk sampai rata. sajikan bersama telur kemudian taburkan bawang goreng secukupnya dan nasi goreng siap disajikan</p>
+            </div>
+        </section>
+        
+    </div>
+
+    <div id="Contact">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>Mellydwiss_</h3>
+                    <p>Dibuat untuk memenuhi Tugas UAS mata kuliah Algoritma Pemrograman</p>
+                </div>
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <p>Pembuatan Nasi Goreng </p>
+                </div>
+                <div class="footer-section">
+                    <h3><Address>Alamat</Address></h3>
+                   <p>Desa Buddagan, Pademawu</p> 
+            
+                </div>
+                <div class="footer-section">
+                    <h3>Social</h3>
+                    <p><p>Istagram: </p>Mellydwiss</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="copyreght">
+        <div class="wrapper">
+            &copy; 2022. <b>Web Melly Dwi</b> All Rights Reserved.
+        </div>
+    </div>
+</body>
+</html>
